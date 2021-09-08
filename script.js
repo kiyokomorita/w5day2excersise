@@ -16,3 +16,28 @@
 */
 
 // SOLUTION:
+//1
+var scoreMatt = 80;
+var scoreSimon =45;
+var limitScore =51;
+
+if(scoreMatt>=limitScore && scoreSimon>=limitScore){
+   console.log("both students passed an exam");
+}
+else if(scoreMatt>=limitScore || scoreSimon>=limitScore){
+   console.log("one of students passed an exam");
+
+   if(scoreMatt>scoreSimon){
+      console.log("Matt" +" "+ scoreMatt);
+      
+    }
+    else{
+       console.log("Simon" +" "+ scoreSimon);
+    }
+}
+
+else{
+   console.log("both students has failed");
+}
+
+
